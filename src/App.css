@@ -1,0 +1,145 @@
+/* ============================================================
+   ESTILOS DE COMPONENTES — PREMIUM TECH
+   Nota: las variables (--accent, --accent-bg, --accent-border,
+   --social-bg, --text, --border) ahora se declaran en index.css :root
+   ============================================================ */
+
+/* Contador / badge de tecnología (eyebrow premium) */
+.counter {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 7px 15px;
+  border-radius: 99px;
+  color: var(--accent-bright, #60a5fa);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  transition: all 0.3s ease;
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+.counter:hover {
+  background: var(--accent);
+  color: white;
+  box-shadow: 0 0 24px -6px var(--accent);
+}
+
+/* Área central del Hero / contenido principal */
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+  padding: 60px 20px;
+}
+@media (max-width: 1024px) {
+  #center { padding: 32px 20px; gap: 18px; }
+}
+
+/* Sección de pasos / info adicional (estilo industrial) */
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  text-align: left;
+}
+#next-steps > div {
+  flex: 1 1 0;
+  padding: 40px;
+  border-right: 1px solid var(--border);
+  transition: background 0.3s ease;
+}
+#next-steps > div:last-child { border-right: none; }
+#next-steps > div:hover { background: rgba(59, 130, 246, 0.03); }
+
+#next-steps h2 {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+}
+#next-steps p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  #next-steps { flex-direction: column; text-align: center; }
+  #next-steps > div {
+    padding: 24px 20px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+/* Lista de enlaces sociales / documentación */
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  margin: 24px 0 0;
+}
+#next-steps ul a {
+  color: white;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: var(--social-bg);
+  border: 1px solid var(--border);
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#next-steps ul a:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px var(--accent);
+}
+@media (max-width: 1024px) {
+  #next-steps ul { flex-wrap: wrap; justify-content: center; }
+}
+
+/* Ticks industriales (marcas en los bordes) */
+.ticks {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+}
+.ticks::before,
+.ticks::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 1px;
+  box-shadow: 0 0 10px -1px var(--accent);
+}
+.ticks::before { left: 0; }
+.ticks::after { right: 0; }
+
+#spacer {
+  height: 80px;
+}
+@media (max-width: 1024px) {
+  #spacer { height: 40px; }
+}

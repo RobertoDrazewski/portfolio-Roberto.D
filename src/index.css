@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+/* ============================================================
+   FUENTES PREMIUM TECH — Archivo (display) + IBM Plex Mono
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+@theme {
+  /* Acento azul "señal" */
+  --color-accent: #3b82f6;
+  --color-accent-bright: #60a5fa;
+  --color-accent-deep: #1d4ed8;
+  --color-accent-bg: rgba(59, 130, 246, 0.1);
+
+  /* Fuentes registradas en Tailwind v4 → habilita font-sans / font-mono */
+  --font-sans: 'Archivo', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  --animate-fade-in-up: fade-in-up 0.6s ease-out forwards;
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+:root {
+  /* Paleta Oscura Industrial */
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #07080a;            /* casi negro, da más profundidad que el negro puro */
+  --border: rgba(255, 255, 255, 0.1);
+  --border-soft: rgba(255, 255, 255, 0.05);
+  --code-bg: #0e1116;
+  --surface: #0e1116;
+
+  /* Variables que App.css necesitaba y NO estaban declaradas */
+  --accent: #3b82f6;
+  --accent-bg: rgba(59, 130, 246, 0.1);
+  --accent-border: rgba(59, 130, 246, 0.28);
+  --social-bg: #111315;
+
+  --sans: 'Archivo', system-ui, -apple-system, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html { scroll-behavior: smooth; }
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    @apply bg-black text-white;
+    font-family: var(--sans);
+  }
+
+  h1 {
+    @apply font-black tracking-tighter text-white;
+    font-family: var(--sans);
+    font-size: clamp(2rem, 8vw, 6rem);
+    margin: 1rem 0;
+    line-height: 0.95;
+  }
+
+  h2 {
+    @apply font-bold text-white;
+    font-family: var(--sans);
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+  }
+
+  /* Eyebrows / etiquetas técnicas en monospace por defecto */
+  .font-mono,
+  .mono { font-family: var(--mono); }
+}
+
+@layer components {
+  #root {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Navbar glass (compatible con tu Navbar.jsx) */
+  .glass-nav {
+    @apply backdrop-blur-xl bg-black/60 border-b border-white/10 sticky top-0 z-50;
+  }
+
+  /* Animación de cartas (usada por ProjectCard) */
+  .card-appear {
+    animation: var(--animate-fade-in-up);
+  }
+
+  /* Tarjeta premium reutilizable */
+  .premium-card {
+    @apply relative border rounded-2xl overflow-hidden transition-all duration-500;
+    background: var(--surface);
+    border-color: var(--border);
+  }
+  .premium-card:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px -30px rgba(59, 130, 246, 0.4);
+  }
+}
+
+/* ============================================================
+   ATMÓSFERA PREMIUM: grid blueprint + glow azul de fondo
+   ============================================================ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(var(--border-soft) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border-soft) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 30%, transparent 75%);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120vw;
+  height: 60vh;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, rgba(59, 130, 246, 0.14), transparent 60%);
+  filter: blur(40px);
+}
+
+/* ============================================================
+   Scrollbar minimalista premium
+   ============================================================ */
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background: #07080a; }
+::-webkit-scrollbar-thumb {
+  background: #2a2d33;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+
+/* Selección de texto con el acento */
+::selection { background: rgba(59, 130, 246, 0.3); color: #fff; }

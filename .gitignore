@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Producción
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno / Archivos locales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Editor (VS Code, IntelliJ, etc.)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Vite / Caché
+.vite/
+.eslintcache
+
+# Verificación de Media
+# Nos aseguramos de que los videos en public/ SIEMPRE se suban
+!public/assets/video/*.mp4

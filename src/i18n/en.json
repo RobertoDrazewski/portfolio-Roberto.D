@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "services": "Services",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "CV",
+    "cv_es": "Spanish",
+    "cv_en": "English",
+    "live": "Live"
+  },
+  "hero": {
+    "badge": "Founder & CTO · Puma Code",
+    "role": "Full Stack & AI Engineer · Machine Learning · Industrial Telemetry",
+    "about_me": "I build <0>AI-powered SaaS platforms</0>, industrial telemetry systems and fault-tolerant software. From the PCB to the <1>Machine Learning</1> model — end-to-end engineering.",
+    "cta_projects": "View projects",
+    "cta_cv": "Download CV",
+    "video_caption": "Latest build · portfolio walkthrough",
+    "frontend": "Frontend UI",
+    "backend": "Core & Embedded",
+    "tools": "Industrial Tools"
+  },
+  "stats": {
+    "years": "Years in engineering",
+    "cto": "Founder · Puma Code",
+    "langs": "Languages · ES/EN/IT",
+    "intl": "International experience"
+  },
+  "services": {
+    "eyebrow": "Capabilities",
+    "title_1": "What I",
+    "title_2": "build",
+    "subtitle": "A rare hybrid profile: hardware, AI and production software under one roof.",
+    "s1_title": "AI & Machine Learning",
+    "s1_desc": "ML models and data pipelines for real-time predictive analytics, industrial fault-detection and AI integrated straight into the product.",
+    "s2_title": "Full Stack & SaaS",
+    "s2_desc": "End-to-end SaaS platforms for international markets: advanced analytics, automated marketing engines and scalable cloud deployments.",
+    "s3_title": "Industrial Telemetry & IoT",
+    "s3_desc": "Firmware and telemetry systems (MQTT/HTTP) to monitor critical variables across the industrial, energy and automotive sectors. From PCB to cloud.",
+    "s4_title": "QA & Cybersecurity",
+    "s4_desc": "Manual and automated testing (Selenium), API testing (Postman) and secure-by-design frameworks with encryption compliance. Quality as a standard, not an extra."
+  },
+  "experience": {
+    "eyebrow": "Track record",
+    "title": "Experience",
+    "subtitle": "Over a decade solving real problems — across Europe and Latin America.",
+    "now": "Active",
+    "e1_when": "May 2026 — Present",
+    "e1_role": "Founder & CTO / Lead Full Stack & AI Engineer",
+    "e1_org": "Puma Code · Mendoza, Argentina · Remote",
+    "e1_desc": "I lead the technical development and product strategy of a software factory specialized in high-performance Full Stack solutions, AI and industrial telemetry. I design ML models, SaaS platforms and end-to-end IoT solutions.",
+    "e2_when": "2024 — 2025",
+    "e2_role": "Production Operator & QA Specialist",
+    "e2_org": "Novanta Inc · Barcelona, Spain",
+    "e2_desc": "Testing of precision electronic components in a medical-grade manufacturing environment. Functional testing, QA reporting and ISO compliance.",
+    "e3_when": "2023 — 2024",
+    "e3_role": "Hardware & QA Tester",
+    "e3_org": "Sitrack.com · Mendoza, Argentina",
+    "e3_desc": "Testing of GPS telemetry PCBs, signal validation and firmware flashing. Automated tests (Selenium) for embedded interfaces and defect management with Jira.",
+    "e4_when": "2005 — 2014",
+    "e4_role": "Quality Control & QA Manager",
+    "e4_org": "Sitrack.com · Chile & Argentina",
+    "e4_desc": "Led QA operations for vehicle tracking systems. Test protocol design (PCB, CAN-bus, serial) and QA team management."
+  },
+  "projects": {
+    "eyebrow": "Synced with GitHub",
+    "title_1": "Recent",
+    "title_2": "projects",
+    "subtitle": "Work in embedded systems, industrial IoT, AI and Full Stack development. Loaded live from my GitHub.",
+    "sync": "Syncing with GitHub...",
+    "no_repos": "No active public repositories found.",
+    "view_repo": "REPO",
+    "view_info": "INFO",
+    "view_demo": "LIVE",
+    "no_description": "Industrial Software Engineering"
+  },
+  "contact": {
+    "eyebrow": "Available remote · worldwide",
+    "title_1": "Let's build",
+    "title_2": "something",
+    "title_3": "serious.",
+    "subtitle": "Got a project, a role or an idea for Puma Code? Let's talk."
+  },
+  "footer": {
+    "tagline": "Founder & CTO @ Puma Code"
+  },
+  "live": {
+    "eyebrow": "In production · Software Factory",
+    "title_1": "Live",
+    "title_2": "projects",
+    "subtitle": "Real production platforms, designed and built at my software factory",
+    "visit": "Visit site",
+    "goodtrip_desc": "Car rental SaaS: dynamic pricing, admin dashboard, AI-generated banners, WhatsApp integration, PDF tickets and real-time metrics.",
+    "agrotech_desc": "IoT soil & climate monitoring platform with frost alerts for vineyards and machine-learning anomaly detection."
+  }
+}
