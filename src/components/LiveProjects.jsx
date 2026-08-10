@@ -31,6 +31,24 @@ const LIVE_PROJECTS = [
     descKey: 'live.agrotech_desc',
     localImage: '/assets/images/agrotech-preview.png',
   },
+  {
+    id: 'kalyber',
+    name: 'Kalyber',
+    url: 'https://kalyber.com.ar/',
+    tags: ['React', 'Node/Express', 'Tailwind'],
+    accent: '#f97316',
+    descKey: 'live.kalyber_desc',
+    localImage: '/assets/images/kalyber-preview.png',
+  },
+  {
+    id: 'mendozapp',
+    name: 'Mendozapp',
+    url: 'https://mendozapp.com.ar/',
+    tags: ['React', 'Node/Express', 'Tailwind'],
+    accent: '#a855f7',
+    descKey: 'live.mendozapp_desc',
+    localImage: '/assets/images/mendozapp-preview.png',
+  }
 ];
 
 // Screenshot por URL (fallback sin servidor propio).
