@@ -44,7 +44,7 @@ const LIVE_PROJECTS = [
     id: 'mendozapp',
     name: 'Mendozapp',
     url: 'https://mendozapp.com.ar/',
-    tags: ['React', 'Node/Express', 'Tailwind'],
+    tags: ['Turismo', 'Geolocalización', 'IA', 'PWA'],
     accent: '#a855f7',
     descKey: 'live.mendozapp_desc',
     localImage: '/assets/images/mendozapp-preview.png',

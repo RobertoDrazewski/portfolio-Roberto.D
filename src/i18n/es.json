@@ -49,18 +49,22 @@
     "e1_role": "Founder & CTO / Lead Full Stack & AI Engineer",
     "e1_org": "Puma Code · Mendoza, Argentina · Remoto",
     "e1_desc": "Lidero el desarrollo técnico y la estrategia de producto de una software factory especializada en soluciones Full Stack de alto rendimiento, IA y telemetría industrial. Diseño modelos de ML, plataformas SaaS y soluciones IoT de extremo a extremo.",
-    "e2_when": "2024 — 2025",
-    "e2_role": "Operador de Producción & Especialista QA",
-    "e2_org": "Novanta Inc · Barcelona, España",
-    "e2_desc": "Testing de componentes electrónicos de precisión en un entorno de fabricación de grado médico. Pruebas funcionales, reportes de QA y cumplimiento de estándares ISO.",
-    "e3_when": "2023 — 2024",
-    "e3_role": "Tester de Hardware & QA",
-    "e3_org": "Sitrack.com · Mendoza, Argentina",
-    "e3_desc": "Testing de PCBs de telemetría GPS, validación de señal y flasheo de firmware. Pruebas automatizadas (Selenium) para interfaces embebidas y gestión de defectos con Jira.",
-    "e4_when": "2005 — 2014",
-    "e4_role": "Control de Calidad & Gerente de QA",
-    "e4_org": "Sitrack.com · Chile & Argentina",
-    "e4_desc": "Dirección de operaciones de QA para sistemas de rastreo vehicular. Diseño de protocolos de prueba (PCB, CAN-bus, serial) y gestión del equipo de calidad."
+    "e2_when": "Abr. 2024 — Abr. 2026",
+    "e2_role": "Consultor Full Stack Independiente",
+    "e2_org": "Consultoría de Software Independiente · Bristol, UK · Remoto",
+    "e2_desc": "Diseñé y entregué aplicaciones web a medida para PyMEs, incluyendo plataformas de reservas y paneles administrativos internos. Construí motores de precios, flujos de reserva y paneles admin con React/Vite, Node/Express y MySQL.",
+    "e3_when": "Sep. 2023 — Mar. 2024",
+    "e3_role": "Técnico de Sistemas de Hardware",
+    "e3_org": "Novanta Inc · Barcelona, España",
+    "e3_desc": "Ensamblaje, calibración y testing de hardware industrial de alta precisión. Diagnóstico a nivel de circuito para minimizar tiempos muertos de producción y asegurar cumplimiento ISO.",
+    "e4_when": "Jun. 2022 — Ago. 2023",
+    "e4_role": "Operador de Producción",
+    "e4_org": "Sitrack.com · Mendoza, Argentina",
+    "e4_desc": "Testeo y programación de hardware GPS/microchip en línea de producción; validación de equipos antes de la instalación.",
+    "e5_when": "2006 — 2014",
+    "e5_role": "Especialista en Control de Calidad",
+    "e5_org": "Sitrack.com · Mendoza, Argentina y Santiago, Chile",
+    "e5_desc": "Testeo y ejecución de nuevos scripts, y programación de dispositivos GPS en línea de producción. Capacitación de nuevos operadores durante un período de fuerte crecimiento de la empresa."
   },
   "projects": {
     "eyebrow": "Sincronizado con GitHub",
@@ -91,6 +95,8 @@
     "subtitle": "Plataformas reales en producción, diseñadas y construidas en mi software factory",
     "visit": "Visitar sitio",
     "goodtrip_desc": "SaaS de alquiler de autos: precios dinámicos, panel de administración, banners con IA, integración con WhatsApp, tickets PDF y métricas en tiempo real.",
-    "agrotech_desc": "Plataforma IoT de monitoreo de suelo y clima con alertas de heladas para viñedos y detección de anomalías mediante machine learning."
+    "agrotech_desc": "Plataforma IoT de monitoreo de suelo y clima con alertas de heladas para viñedos y detección de anomalías mediante machine learning.",
+    "kalyber_desc": "SaaS de telemetría de flotas: rastreo GPS en tiempo real, scoring de comportamiento del conductor, alertas de mantenimiento predictivo y una API agnóstica de dispositivo construida sobre protocolos GT06/JT808 a medida.",
+    "mendozapp_desc": "Guía turística PWA con IA para Mendoza: alertas de proximidad con indicaciones por voz, puntos de interés narrados por IA y un planificador de itinerarios con IA."
   }
 }

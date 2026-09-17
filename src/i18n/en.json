@@ -49,18 +49,22 @@
     "e1_role": "Founder & CTO / Lead Full Stack & AI Engineer",
     "e1_org": "Puma Code · Mendoza, Argentina · Remote",
     "e1_desc": "I lead the technical development and product strategy of a software factory specialized in high-performance Full Stack solutions, AI and industrial telemetry. I design ML models, SaaS platforms and end-to-end IoT solutions.",
-    "e2_when": "2024 — 2025",
-    "e2_role": "Production Operator & QA Specialist",
-    "e2_org": "Novanta Inc · Barcelona, Spain",
-    "e2_desc": "Testing of precision electronic components in a medical-grade manufacturing environment. Functional testing, QA reporting and ISO compliance.",
-    "e3_when": "2023 — 2024",
-    "e3_role": "Hardware & QA Tester",
-    "e3_org": "Sitrack.com · Mendoza, Argentina",
-    "e3_desc": "Testing of GPS telemetry PCBs, signal validation and firmware flashing. Automated tests (Selenium) for embedded interfaces and defect management with Jira.",
-    "e4_when": "2005 — 2014",
-    "e4_role": "Quality Control & QA Manager",
-    "e4_org": "Sitrack.com · Chile & Argentina",
-    "e4_desc": "Led QA operations for vehicle tracking systems. Test protocol design (PCB, CAN-bus, serial) and QA team management."
+    "e2_when": "Apr 2024 — Apr 2026",
+    "e2_role": "Full Stack Technical Consultant",
+    "e2_org": "Independent Software Consultancy · Bristol, UK · Remote",
+    "e2_desc": "Designed and delivered custom web applications for SMBs, including booking platforms and internal administrative dashboards. Built pricing engines, booking flows and admin panels with React/Vite, Node/Express and MySQL.",
+    "e3_when": "Sep 2023 — Mar 2024",
+    "e3_role": "Hardware Systems Technician",
+    "e3_org": "Novanta Inc · Barcelona, Spain",
+    "e3_desc": "Assembly, calibration and testing of high-precision industrial hardware. Circuit-level troubleshooting to minimize production downtime and ensure ISO compliance.",
+    "e4_when": "Jun 2022 — Aug 2023",
+    "e4_role": "Production Operator",
+    "e4_org": "Sitrack.com · Mendoza, Argentina",
+    "e4_desc": "Tested and programmed GPS/microchip hardware on the production line; validated equipment before installation.",
+    "e5_when": "2006 — 2014",
+    "e5_role": "Quality Control Specialist",
+    "e5_org": "Sitrack.com · Mendoza, Argentina & Santiago, Chile",
+    "e5_desc": "Tested and ran new scripts and programmed GPS hardware devices on the production line. Trained new operators during a period of strong company growth."
   },
   "projects": {
     "eyebrow": "Synced with GitHub",
@@ -91,6 +95,8 @@
     "subtitle": "Real production platforms, designed and built at my software factory",
     "visit": "Visit site",
     "goodtrip_desc": "Car rental SaaS: dynamic pricing, admin dashboard, AI-generated banners, WhatsApp integration, PDF tickets and real-time metrics.",
-    "agrotech_desc": "IoT soil & climate monitoring platform with frost alerts for vineyards and machine-learning anomaly detection."
+    "agrotech_desc": "IoT soil & climate monitoring platform with frost alerts for vineyards and machine-learning anomaly detection.",
+    "kalyber_desc": "Fleet telemetry SaaS: real-time GPS tracking, driver behavior scoring, predictive maintenance alerts and a device-agnostic API built on custom GT06/JT808 protocols.",
+    "mendozapp_desc": "AI-powered tourist guide PWA for Mendoza: proximity alerts with voice-guided directions, AI-narrated points of interest, and an AI itinerary planner."
   }
 }

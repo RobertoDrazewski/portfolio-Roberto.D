@@ -31,6 +31,12 @@ const Experience = () => {
       org: t('experience.e4_org'),
       desc: t('experience.e4_desc'),
     },
+    {
+      when: t('experience.e5_when'),
+      role: t('experience.e5_role'),
+      org: t('experience.e5_org'),
+      desc: t('experience.e5_desc'),
+    },
   ];
 
   return (
