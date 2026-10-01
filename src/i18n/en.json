@@ -88,6 +88,22 @@
   "footer": {
     "tagline": "Founder & CTO @ Puma Code"
   },
+  "hire": {
+    "cta": "Hire me!",
+    "question": "So, would you like to hire me?",
+    "yes": "Yes, let's talk",
+    "no": "No",
+    "taunts": [
+      "Nice try 😏",
+      "Almost had me!",
+      "Nope, not catching this one",
+      "Come on, say yes!",
+      "Is that the best you've got?",
+      "Still not it"
+    ],
+    "mail_subject": "I want to hire you!",
+    "mail_body": "Hi Roberto,\n\nI'd like to talk with you about a project / role.\n\n"
+  },
   "live": {
     "eyebrow": "In production · Software Factory",
     "title_1": "Live",

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { LuMail } from 'react-icons/lu';
 import Reveal from './Reveal';
+import HireMe from './HireMe';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -72,6 +73,10 @@ const Contact = () => {
               <LuMail size={18} />
             </a>
           </div>
+        </Reveal>
+
+        <Reveal delay={320}>
+          <HireMe />
         </Reveal>
       </div>
     </section>
